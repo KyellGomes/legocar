@@ -1,7 +1,6 @@
 Future Engineers - Roadrunners
 ====
 
-Dieses GitHub-Repository dient als Vorlage für Teams in Future Engineers.
 
 ## Content
 
