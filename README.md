@@ -14,6 +14,12 @@ Future Engineers - Roadrunners
 
 Bauanleitung:
 Wir haben unser Auto aus Legoteilen und Kunststoffplatten gebaut.
+
+Größe und Gewicht:
+Länge: 27cm 
+Breite: 18cm
+Gewicht: 1255g
+
 Die Bodenplatte besteht aus durchsichtigem Kunststoff. Eine Zeichnung in Originalgröße mit Bohrungen haben wir dazu gelegt. 
 Die Hinterachse haben wir aus Legoteilen gebaut. Eine Fotobauanleitung liegt im Verzeichnis Roboterauto: Foto_Bauanleitung.pdf.
 Die Hinterachse hat ein Differenzialgetriebe damit das Auto besser um Kurven fahren kann. Zum Antrieb haben wir zwei Lego Power functions Motoren benutzt die über ein Kopplungsgetriebe mit der Hinterachse verbunden sind.
