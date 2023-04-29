@@ -52,6 +52,9 @@ Sensoren:
 Unsere Idee für das Eröffnungsrennen ist dass wir mit Abstandssensoren immer in der Mitte zwischen den beiden Banden steuern. Wir haben verschiedene Arten von Abstandssensoren ausprobiert.
 Wir haben TOF Sensoren und Ultraschallsnsoren ausprobiert. Die TOF messen viel schneller als die Ultraschallsnsoren darum benutzen wir standartmäßig die TOF Sensoren. Die TOF Sensoren sind aber sehr empfindlich was
 helles Licht angeht. Deshalb haben wir die Ultraschallsensoren trotzdem zur Sicherheit am Auto drangelassen. Man kann die Ultraschallsensoren und die TOF Snesoren ganz einfach mit einem Lego Schnellverschluss austauschen.
+Um anzeigen zu können was das Auto gerade macht haben wir 3 LEDs (rot,gelb,grün) auf der obere Platte eingebaut. Wenn das Auto eingeschaltet wird geht die rote LED an. Wenn das Set-Up fertig ist und das Auto auf den
+Startknopf wartet geht die rote LED aus und die gelbe geht an. Wenn der Knopf gedrückt wurde und das Auto färht los leuchtet nur noch die grüne LED. Bei der Farht leuchtet die rote LED auf wenn das Auto erkannt hat das es rechts
+abbiegen muss und die gelbe wenn es erkennt das es links abbiegen muss.
 
 Kamera:
 Als Kamera benutzen wir eine Huskylens Kamera von DF Robot. Die Huskylens ist eine Smartcam die farbige Blöcke und farbige Linien erkennen kann nachdem man sie darauf trainiert hat.
