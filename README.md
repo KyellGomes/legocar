@@ -46,6 +46,10 @@ Wir haben 2 Powerfunctions L Lego Motoren genommen weil 1 Motor nicht genug Kraf
 Die Motoren sind über ein Getriebe und elektrisch miteinander und mit dem Motortreiber verbunden. Dafür haben wir die Legoanschlüsse abgeschnitten und Normale Stecker angelötet. Wir haben die Motoren miteinander verbunden weil im Regelwerk steht dass man nur einen
 logischen aber zwei physikalische Motoren haben darf.
 Wir haben ein Diffenzialgetriebe eingebaut damit sich in der Kurve das innere Rad langsamer dreht als das äußere.
+Erst haben wir gedacht das wir das Auto so schnell wie möglich zu machen und dann nachher das langsamer Fahren nur mit programmierung zu machen. Wir haben aber festgestellt das man nicht mit dem programmieren alleine das Auto langsamer
+machen kann weil das Auto mindestens 130 pwm braucht um anzufahren. Und das war dann auch wieder zu schnell für unsere Sensoren. Das Auto ist so nicht ganau genug gefahren. Wir haben uns dann überlegt wie wir es schaffen
+langsamer zu fahren und haben dann das Getriebe zwiachen den beiden Motoren geändert. Vorher hatten wir eine 28:28 Übersetzung, dass heißt die Hinterachse dreht sich genau so schnell wie die Motoren. Wir haben dann andere
+Zahnräder eingesetzt sodass wir jetzt eine Übersetzung von 28:12 Übersetzung. Dass heißt die Hinterachse dreht sich weniger als halb so schnell wie die Motoren.
 
 
 Sensoren:
