@@ -74,7 +74,6 @@ Als Kamera benutzen wir eine Huskylens Kamera von DF Robot. Die Huskylens ist ei
 besonders breites Sichtfeld weswegen sie manchmal Hindernisse nicht erkennt die direkt hinter der Kurve stehen. Deswegen fahren wir bei einer Kurve bis gegenüberliegenden Wand. Dann lenkt der Roboter ein und fährt rückwärts bis er die Hindernisse wieder vor sich sieht.
 Danach kann er wieder seine normalen Ausweichmannöver fahren.
 
-
 Vorgehensweise:
 Wir haben damit angefangen uns erstmal kleine Testprogramme für die Bauteile die wir verwendet haben zu schreiben. Wir haben dafür Vorlagen von Funduino.de und von den Beispielprogrammen der Hersteller verwendet.
 
