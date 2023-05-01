@@ -59,6 +59,9 @@ helles Licht angeht. Deshalb haben wir die Ultraschallsensoren trotzdem zur Sich
 Um anzeigen zu können was das Auto gerade macht haben wir 3 LEDs (rot,gelb,grün) auf der obere Platte eingebaut. Wenn das Auto eingeschaltet wird geht die rote LED an. Wenn das Set-Up fertig ist und das Auto auf den
 Startknopf wartet geht die rote LED aus und die gelbe geht an. Wenn der Knopf gedrückt wurde und das Auto färht los leuchtet nur noch die grüne LED. Bei der Farht leuchtet die rote LED auf wenn das Auto erkannt hat das es rechts
 abbiegen muss und die gelbe wenn es erkennt das es links abbiegen muss.
+Für das Hindernisrennen haben wir uns überlegt das wir einen RGB-Farbsensor benutzten der die Farben auf dem Boden erkennt. Unser Farbsensor liefert 4 Zahlen zurück: eine für rot, eine für grün, eine für blau und eine 
+helligkeit. Wenn das Auto startet steht das Auto auf jedenfall auf einem weißen Untergrund und der Sensor merkt sich dann die helligkeit von dem weißen Untergrund. Wenn beim Fahren der Boden deutlich dunkler wird
+hat der Sensor eine Linie gefunden und wertet dann die RGB Werte aus um rauszufinden ob es die blaue oder die orangene Linie ist. 
 
 Kamera:
 Als Kamera benutzen wir eine Huskylens Kamera von DF Robot. Die Huskylens ist eine Smartcam die farbige Blöcke und farbige Linien erkennen kann nachdem man sie darauf trainiert hat.
