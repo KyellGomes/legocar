@@ -64,4 +64,6 @@ helligkeit. Wenn das Auto startet steht das Auto auf jedenfall auf einem weißen
 hat der Sensor eine Linie gefunden und wertet dann die RGB Werte aus um rauszufinden ob es die blaue oder die orangene Linie ist. 
 
 Kamera:
-Als Kamera benutzen wir eine Huskylens Kamera von DF Robot. Die Huskylens ist eine Smartcam die farbige Blöcke und farbige Linien erkennen kann nachdem man sie darauf trainiert hat.
+Als Kamera benutzen wir eine Huskylens Kamera von DF Robot. Die Huskylens ist eine Smartcam die farbige Blöcke und farbige Linien erkennen kann nachdem man sie darauf trainiert hat. Die Huskilens hat leider kein
+besonders breites Sichtfeld weswegen sie manchmal Hindernisse nicht erkennt die direkt hinter der Kurve stehen. Deswegen fahren wir bei einer Kurve bis gegenüberliegenden Wand. Dann lenkt der Roboter ein und fährt rückwärts bis er die Hindernisse wieder vor sich sieht.
+Danach kann er wieder seine normalen Ausweichmannöver fahren.
