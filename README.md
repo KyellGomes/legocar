@@ -49,7 +49,7 @@ Wir haben ein Diffenzialgetriebe eingebaut damit sich in der Kurve das innere Ra
 Erst haben wir gedacht das wir das Auto so schnell wie möglich zu machen und dann nachher das langsamer Fahren nur mit programmierung zu machen. Wir haben aber festgestellt das man nicht mit dem programmieren alleine das Auto langsamer
 machen kann weil das Auto mindestens 130 pwm braucht um anzufahren. Und das war dann auch wieder zu schnell für unsere Sensoren. Das Auto ist so nicht ganau genug gefahren. Wir haben uns dann überlegt wie wir es schaffen
 langsamer zu fahren und haben dann das Getriebe zwiachen den beiden Motoren geändert. Vorher hatten wir eine 28:28 Übersetzung, dass heißt die Hinterachse dreht sich genau so schnell wie die Motoren. Wir haben dann andere
-Zahnräder eingesetzt sodass wir jetzt eine Übersetzung von 28:12 Übersetzung. Dass heißt die Hinterachse dreht sich weniger als halb so schnell wie die Motoren.
+Zahnräder eingesetzt sodass wir jetzt eine Übersetzung von 28:12 = 2,33 in der ersten Stufe an der Hinterachse haben. Dass heißt die Hinterachse dreht sich weniger als halb so schnell wie die Motoren. In der zweiten Stufe (Kopplung der Motoren) haben wie nochmal eine Übersetzung von 20:12 = 1,67. Zusammen ergibt das eine Übersetzung von 3,89:1 dass heißt die Motoren drehen fast vier mal so schnell wie die Hinterachse.
 
 
 Sensoren:
