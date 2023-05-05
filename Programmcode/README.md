@@ -1,17 +1,71 @@
 Programmcode
 ====
-
 **Softwareentwicklung**
 ====
 
-Unsere Roboter Software läuft auf einem Arduino Nanao-Every.
+ Unsere Roboter Software läuft auf einem Arduino Nanao-Every.
  Wir haben angefangen für die Sensoren, dem Lenkservo und dem Motortreiber Testprogramme zu schreiben,
  um herrauszufinden, wie diese funktionieren.
+ An unserem Auto haben wir eine Ampel aus 3 LEDs (Rot, Gelb, Grün).
+ Wir benutzen die LEDs beim Setup zum anzeigen, dass der Roboter fertig ist. Während der Fahrt benutzen wir sie,
+ um wichtige Stellen im Ablauf zu signalisieren, z.B. Kurve links erkannt/Kurve rechts erkannt.
  Wir haben 2 getrennte Programme für das Eröffnungsrennen und das Rennen mit Hindernisen.
  
-**Eröffnungsrennen:**
+ **Eröffnungsrennen:**
+ 
+ Beim eröffnungsrennen orientiert sich der Roboter mit dem rechten und linken Ultraschallsensor.
+ Das Programm teilt sich in einem Anteil, der im Setup nur einmal läuft, und die Loop, die bis zum Ende der 3 Runden immer wieder wiederholt wird.
+ 
+ **Pseudocode Anfangssequenz:**
  
  
+ Ampel Rot 
+ 
+ Messe Abstand links, Rechts, Vorne
+ 
+ Wenn Abstand vorne > 130 dann Startplatz Hinten, sonst Startplatz Vorne 
+ 
+ Wenn Wandabstand Links < 10 dann Fahrtrichtung Links 
+ 
+ wenn Wandabstand Rechts < 10 dann Fahrtrichtung Rechts
+ 
+ Ampel Gelb
+ 
+ Warte auf Startbutton
+ 
+ Ampel Grün
+ 
+ Wenn Fahrtrichtung unbekannt dann halte Abstandzwischen beiden Wänden bis ein Seitensensor > 60 misst dann Kurve erkannt
+ 
+ Wenn Fahrtrichtung beannt dann langsam vorfahren bis Sensor in Fahrtrichtung > 60 misst dann erste Kurve erkannt
+ 
+ Fahre erste Kurve 
+ 
+ Zähle Kurve
+ 
+ Nach Kurve fahre Geradeaus bis Sensorin Fahrtrichtung wieder Innenwand erkennt 
+ 
+ 
+ 
+**Pseudocode Hauptschleife:**
+
+
+ Messe Abstand zur Innenwand 
+ 
+ Berechne Differenz zwischen gemessenem Abstand und 20 cm Wandabstand 
+ 
+ Lenke propotional zur Innenwand hin oder von der Innenwand weg
+ 
+ Wenn Sensor in Fahrtrichtung > 80 cm misst und genügend Zeit seit letzter Kurve
+ 
+ Dann fahre und zähle Kurve
+ 
+ Wenn Kuvenzähler = 12
+ 
+ Dann Fahre kurz vorwärtz in Geraden Abschnitt
+ 
+ Dann Stop 
+
  
  
  
