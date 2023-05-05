@@ -13,7 +13,7 @@ Future Engineers - Roadrunners
 ## Einleitung
 
 Bauanleitung:
-Wir haben unser Auto aus Legoteilen und Kunststoffplatten gebaut.
+Wir haben unser Auto aus Legoteilen und Kunststoffplatten gebaut.Wir haben in dem Buch "The Unofficial LEGO Technic Builder's Guide 2nd Edition" geguckt wie man aus LEGO ein Auto baut, speziell wie man eine Lenkung baut und wie man eine Hinterachse mit Differenzialgetriebe baut.
 
 Größe und Gewicht:
 Länge: 27cm 
@@ -61,7 +61,7 @@ Startknopf wartet geht die rote LED aus und die gelbe geht an. Wenn der Knopf ge
 abbiegen muss und die gelbe wenn es erkennt das es links abbiegen muss.
 Für das Hindernisrennen haben wir uns überlegt das wir einen RGB-Farbsensor benutzten der die Farben auf dem Boden erkennt. Unser Farbsensor liefert 4 Zahlen zurück: eine für rot, eine für grün, eine für blau und eine 
 helligkeit. Wenn das Auto startet steht das Auto auf jedenfall auf einem weißen Untergrund und der Sensor merkt sich dann die helligkeit von dem weißen Untergrund. Wenn beim Fahren der Boden deutlich dunkler wird
-hat der Sensor eine Linie gefunden und wertet dann die RGB Werte aus um rauszufinden ob es die blaue oder die orangene Linie ist. 
+hat der Sensor eine Linie gefunden und wertet dann die RGB Werte aus um rauszufinden ob es die blaue oder die orangene Linie ist.Wir haben mit verschiedenen Positionen der Ultraschallsensoren experimentiert. Wir haben festgestellt dass es besser ist das der Roboter so früh wie möglich die Messwerte erkennt. Darum haben wir die Sensoren möglichst weit vorne angebracht. Der Roboter fährt ja weiter während die Messwerte verarbeitet 
 
 Kamera:
 Als Kamera benutzen wir eine Huskylens Kamera von DF Robot. Die Huskylens ist eine Smartcam die farbige Blöcke und farbige Linien erkennen kann nachdem man sie darauf trainiert hat. Die Huskilens hat leider kein
@@ -72,3 +72,4 @@ Danach kann er wieder seine normalen Ausweichmannöver fahren.
 Vorgehensweise:
 Wir haben damit angefangen uns erstmal kleine Testprogramme für die Bauteile die wir verwendet haben zu schreiben. Wir haben dafür Vorlagen von Funduino.de und von den Beispielprogrammen der Hersteller verwendet.
 
+Die Beschreibung zu unseren Programmen findet man im README.MD im Programmcodeverzeichnis.
