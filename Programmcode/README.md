@@ -16,7 +16,7 @@ Programmcode
  Beim eröffnungsrennen orientiert sich der Roboter mit dem rechten und linken Ultraschallsensor.
  Das Programm teilt sich in einem Anteil, der im Setup nur einmal läuft, und die Loop, die bis zum Ende der 3 Runden immer wieder wiederholt wird.
  
- **Pseudocode Anfangssequenz:**
+**Pseudocode Anfangssequenz:**
  
  
  Ampel Rot 
@@ -72,9 +72,9 @@ Programmcode
 **Hindernisrennen:**
  
  Wir verwenden zum erkennen der Hindernisse eine Huskylens AI Kamera von DFRobot.
- Die Huskylenskann darauf trainiert werden farbige Blöcke zu erkennen. Sie ordnet jeder gelernten Farbe eine ID zu.
+ Die Huskylens kann darauf trainiert werden farbige Blöcke zu erkennen. Sie ordnet jeder gelernten Farbe eine ID zu.
  Bei der Abfrage liefert die Huskylensin in der Reinfolge der IDs.
- für einen gefundenen Blovck liefert sie die Position der Blockmitte im Bild in XY Koordinaten, die Breite und Höhe des Blocks und die ID der Farbe.
+ für einen gefundenen Block liefert sie die Position der Blockmitte im Bild in XY Koordinaten, die Breite und Höhe des Blocks und die ID der Farbe.
  Rote blöcke werden immer als erstes geliefert, da sie ID 1 haben, auch wenn ein grüner Block näher am Roboter steht.
  Um den Block zu finden, dem wir als nächstes ausweichen müssen, gehen wir wie folgt vor:
  
@@ -83,7 +83,7 @@ Programmcode
  
  berechne die Position der Unterkannte des Blocks im Bild
  
- wenn Unterkannte des gefundenen Blockes nahe genug am Roboter und Unterkannte näher am Roboter als der letzte gemerkte Blocke
+ wenn Unterkannte des gefundenen Blockes nahe genug am Roboter und Unterkannte näher am Roboter als der letzte gemerkte Block
  
  dann merke dir diesen Block
  
@@ -94,7 +94,7 @@ Programmcode
  wenn ein Block nahe genug am Roboter ist, starten wir ein Ausweichmanöver.
  
  
- **Ausweichmanöver Pseudocode:**
+**Ausweichmanöver Pseudocode:**
  
  Lenke in Ausweichrichtung, bis der Block nicht mehr zu sehen ist
  
@@ -105,9 +105,9 @@ Programmcode
  wenn kein Block in Sicht ist, versuchen wir in die Mitte der Banden zu steuern
  
  
- **Erkennen einer Kurve und der Fahrtrichtung:**
+**Erkennen einer Kurve und der Fahrtrichtung:**
  
- Hierzu benutzen wir einen Grove Farbsensor. Der Farbsensor liefert 4 Werte: Rot, Grün, Blau, Helligkeit
+ Hierzu benutzen wir einen Grove Farbsensor. Der Farbsensor liefert 4 Werte: Rot, Grün, Blau und die Helligkeit.
  Beim start merkt sich der Roboter die Helligkeit des Untergrundes als Referenz.
  
  
